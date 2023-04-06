@@ -1,0 +1,200 @@
+header {
+    display: flex
+}
+hero {
+    text-align: center;
+    font-family: Rubik;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 68px;
+    letter-spacing: 0px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+@media (max-width:1200px) {
+    .container{
+        max-width: 970px;
+    }
+}
+@media (max-width:992px) {
+    .container{
+        max-width: 750px;
+    }
+}
+@media (max-width:767px) {
+    .container{
+        max-width: none;
+    }
+}
+nav {
+    display: flex;
+    width: 376px;
+    height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 529px;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 230px;
+    width: 36px;
+    height: 36px;
+}
+a {
+    font-family: "Rubik", sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.image1 {
+    display: flex;
+    width: 550px;
+    height: 724px;
+    float: right;
+
+}
+.private-info {
+    display: flex;
+    flex-direction: column;
+    height: 509px;
+    justify-content: space-between;
+    padding-top: 215px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+.header2 {
+    display: flex;
+    font-family: "Rubik", sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    justify-content: center;
+    margin-top: 100px;
+}
+details {
+    display: flex;
+    border: 1px solid;
+    width: 932px;
+    height: 52px;
+    margin: 20px auto;
+    justify-content: center;
+    border-radius: 4px;
+}
+summary {display: block;}
+
+summary::after {
+    background: #fdfafa;
+    content: "+";
+    color: #6E38F7;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 6px 10px 0 0;
+    padding: 0;
+    text-align: center;
+    width: 20px;
+}
+
+details[open] summary::after {
+    content: "-";
+}
+
+details > summary > p {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 168px;
+}
+aside > p {
+    display: flex;
+    width: 620px;
+    height: 44px;
+    margin: 20px auto;
+    margin-bottom: 40px;
+    text-align: center;
+}
+p {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #363940;
+
+}
+.small-paragraph {
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #95a1bb;
+
+}
+.name-email {
+    display: flex;
+    justify-content: center;
+    
+}
+.name {
+    display: flex;
+    margin: 40px 10px 20px 10px;
+    width: 212px;
+    height: 38px;
+    border-radius: 4px;
+}
+.email {
+    display: flex;
+    margin: 40px 10px 20px 10px;
+    width: 212px;
+    height: 38px;
+    border-radius: 4px;
+}
+.description {
+    display: flex;
+    width: 452px;
+    height: 114px;
+    border-radius: 4px;
+    margin: 20px auto;
+}
+.button {
+    display: flex;
+    width: 152px;
+    height: 38px;
+    border-radius: 4px;
+    background-color: #6E38F7;
+    color: #FFFFFF;
+    margin: 20px auto;
+    font-family: Rubik;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+.header6 {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding: 15px;
+}
+.scroll {
+    text-align: center;
+}
